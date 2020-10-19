@@ -1,0 +1,290 @@
+[
+  {
+    "model": "main.hero",
+    "pk": 1,
+    "fields": {
+      "name": "Ana",
+      "portrait": "hero_portraits/Ana_portrait.png",
+      "role": "support"
+    }
+  },
+  {
+    "model": "main.hero",
+    "pk": 2,
+    "fields": {
+      "name": "Bastion",
+      "portrait": "hero_portraits/Bastion_portrait.png",
+      "role": "damage"
+    }
+  },
+  {
+    "model": "main.hero",
+    "pk": 3,
+    "fields": {
+      "name": "Brigitte",
+      "portrait": "hero_portraits/Brigitte_portrait.png",
+      "role": "support"
+    }
+  },
+  {
+    "model": "main.hero",
+    "pk": 4,
+    "fields": {
+      "name": "D.VA",
+      "portrait": "hero_portraits/D.Va_portrait.png",
+      "role": "tank"
+    }
+  },
+  {
+    "model": "main.hero",
+    "pk": 5,
+    "fields": {
+      "name": "Doomfist",
+      "portrait": "hero_portraits/Doomfist_portrait.png",
+      "role": "damage"
+    }
+  },
+  {
+    "model": "main.hero",
+    "pk": 6,
+    "fields": {
+      "name": "Genji",
+      "portrait": "hero_portraits/Genji_portrait.png",
+      "role": "damage"
+    }
+  },
+  {
+    "model": "main.hero",
+    "pk": 7,
+    "fields": {
+      "name": "Hanzo",
+      "portrait": "hero_portraits/Hanzo_portrait.png",
+      "role": "damage"
+    }
+  },
+  {
+    "model": "main.hero",
+    "pk": 8,
+    "fields": {
+      "name": "Junkrat",
+      "portrait": "hero_portraits/Junkrat_portrait.png",
+      "role": "damage"
+    }
+  },
+  {
+    "model": "main.hero",
+    "pk": 9,
+    "fields": {
+      "name": "Lúcio",
+      "portrait": "hero_portraits/L3Fcio_portrait.png",
+      "role": "support"
+    }
+  },
+  {
+    "model": "main.hero",
+    "pk": 10,
+    "fields": {
+      "name": "McCree",
+      "portrait": "hero_portraits/McCree_portrait.png",
+      "role": "damage"
+    }
+  },
+  {
+    "model": "main.hero",
+    "pk": 11,
+    "fields": {
+      "name": "Mei",
+      "portrait": "hero_portraits/Mei_portrait.png",
+      "role": "damage"
+    }
+  },
+  {
+    "model": "main.hero",
+    "pk": 12,
+    "fields": {
+      "name": "Mercy",
+      "portrait": "hero_portraits/Mercy_portrait.png",
+      "role": "support"
+    }
+  },
+  {
+    "model": "main.hero",
+    "pk": 13,
+    "fields": {
+      "name": "Orisa",
+      "portrait": "hero_portraits/Orisa_portrait.png",
+      "role": "tank"
+    }
+  },
+  {
+    "model": "main.hero",
+    "pk": 14,
+    "fields": {
+      "name": "Pharah",
+      "portrait": "hero_portraits/Pharah_portrait.png",
+      "role": "damage"
+    }
+  },
+  {
+    "model": "main.hero",
+    "pk": 15,
+    "fields": {
+      "name": "Reaper",
+      "portrait": "hero_portraits/Reaper_portrait.png",
+      "role": "damage"
+    }
+  },
+  {
+    "model": "main.hero",
+    "pk": 16,
+    "fields": {
+      "name": "Reinhardt",
+      "portrait": "hero_portraits/Reinhardt_portrait.png",
+      "role": "tank"
+    }
+  },
+  {
+    "model": "main.hero",
+    "pk": 17,
+    "fields": {
+      "name": "Roadhog",
+      "portrait": "hero_portraits/Roadhog_portrait.png",
+      "role": "tank"
+    }
+  },
+  {
+    "model": "main.hero",
+    "pk": 18,
+    "fields": {
+      "name": "Soldier 76",
+      "portrait": "hero_portraits/Soldier76_portrait.png",
+      "role": "damage"
+    }
+  },
+  {
+    "model": "main.hero",
+    "pk": 19,
+    "fields": {
+      "name": "Sombra",
+      "portrait": "hero_portraits/Sombra_portrait.png",
+      "role": "damage"
+    }
+  },
+  {
+    "model": "main.hero",
+    "pk": 20,
+    "fields": {
+      "name": "Symmetra",
+      "portrait": "hero_portraits/Symmetra_portrait.png",
+      "role": "damage"
+    }
+  },
+  {
+    "model": "main.hero",
+    "pk": 21,
+    "fields": {
+      "name": "Torbjörn",
+      "portrait": "hero_portraits/Torbj3Frn_portrait.png",
+      "role": "damage"
+    }
+  },
+  {
+    "model": "main.hero",
+    "pk": 22,
+    "fields": {
+      "name": "Tracer",
+      "portrait": "hero_portraits/Tracer_portrait.png",
+      "role": "damage"
+    }
+  },
+  {
+    "model": "main.hero",
+    "pk": 23,
+    "fields": {
+      "name": "Widowmaker",
+      "portrait": "hero_portraits/Widowmaker_portrait.png",
+      "role": "damage"
+    }
+  },
+  {
+    "model": "main.hero",
+    "pk": 24,
+    "fields": {
+      "name": "Winston",
+      "portrait": "hero_portraits/Winston_portrait.png",
+      "role": "tank"
+    }
+  },
+  {
+    "model": "main.hero",
+    "pk": 25,
+    "fields": {
+      "name": "Wrecking Ball",
+      "portrait": "hero_portraits/Wrecking_Ball_portrait.png",
+      "role": "tank"
+    }
+  },
+  {
+    "model": "main.hero",
+    "pk": 26,
+    "fields": {
+      "name": "Zarya",
+      "portrait": "hero_portraits/Zarya_portrait.png",
+      "role": "tank"
+    }
+  },
+  {
+    "model": "main.hero",
+    "pk": 27,
+    "fields": {
+      "name": "Zenyatta",
+      "portrait": "hero_portraits/Zenyatta_portrait.png",
+      "role": "support"
+    }
+  },
+  {
+    "model": "main.hero",
+    "pk": 28,
+    "fields": {
+      "name": "Ashe",
+      "portrait": "hero_portraits/Ashe_portrait.png",
+      "role": "damage"
+    }
+  },
+  {
+    "model": "main.hero",
+    "pk": 29,
+    "fields": {
+      "name": "Baptiste",
+      "portrait": "hero_portraits/Baptiste_portrait.png",
+      "role": "support"
+    }
+  },
+  {
+    "model": "main.hero",
+    "pk": 30,
+    "fields": {
+      "name": "Echo",
+      "portrait": "hero_portraits/Echo_portrait.png",
+      "role": "damage"
+    }
+  },
+  {
+    "model": "main.hero",
+    "pk": 31,
+    "fields": {
+      "name": "Sigma",
+      "portrait": "hero_portraits/Sigma_portrait.png",
+      "role": "tank"
+    }
+  },
+  {
+    "model": "main.hero",
+    "pk": 32,
+    "fields": {
+      "name": "Moira",
+      "portrait": "hero_portraits/Moira_portrait.png",
+      "role": "support"
+    }
+  }
+]

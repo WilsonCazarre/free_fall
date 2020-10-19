@@ -1,0 +1,200 @@
+[
+  {
+    "model": "main.gamemap",
+    "pk": 1,
+    "fields": {
+      "name": "Blizzard World",
+      "game_mode": "hybrid",
+      "portrait": "map_portraits/blizzard_world.jpg"
+    }
+  },
+  {
+    "model": "main.gamemap",
+    "pk": 2,
+    "fields": {
+      "name": "Busan",
+      "game_mode": "control",
+      "portrait": "map_portraits/busan.jpg"
+    }
+  },
+  {
+    "model": "main.gamemap",
+    "pk": 3,
+    "fields": {
+      "name": "Dorado",
+      "game_mode": "escort",
+      "portrait": "map_portraits/dorado.jpg"
+    }
+  },
+  {
+    "model": "main.gamemap",
+    "pk": 4,
+    "fields": {
+      "name": "Eichenwalde",
+      "game_mode": "hybrid",
+      "portrait": "map_portraits/eichenwalde.png"
+    }
+  },
+  {
+    "model": "main.gamemap",
+    "pk": 5,
+    "fields": {
+      "name": "Watchpoint: Gibraltar",
+      "game_mode": "escort",
+      "portrait": "map_portraits/gibraltar.jpg"
+    }
+  },
+  {
+    "model": "main.gamemap",
+    "pk": 6,
+    "fields": {
+      "name": "Hanamura",
+      "game_mode": "assault",
+      "portrait": "map_portraits/hanamura.jpg"
+    }
+  },
+  {
+    "model": "main.gamemap",
+    "pk": 7,
+    "fields": {
+      "name": "Havana",
+      "game_mode": "escort",
+      "portrait": "map_portraits/havana.png"
+    }
+  },
+  {
+    "model": "main.gamemap",
+    "pk": 8,
+    "fields": {
+      "name": "Hollywood",
+      "game_mode": "hybrid",
+      "portrait": "map_portraits/hollywood.jpg"
+    }
+  },
+  {
+    "model": "main.gamemap",
+    "pk": 9,
+    "fields": {
+      "name": "Horizon Lunar Colony",
+      "game_mode": "assault",
+      "portrait": "map_portraits/horizon.jpg"
+    }
+  },
+  {
+    "model": "main.gamemap",
+    "pk": 10,
+    "fields": {
+      "name": "Ilios",
+      "game_mode": "control",
+      "portrait": "map_portraits/Ilios.jpg"
+    }
+  },
+  {
+    "model": "main.gamemap",
+    "pk": 11,
+    "fields": {
+      "name": "Junkertown",
+      "game_mode": "escort",
+      "portrait": "map_portraits/junkertown.jpg"
+    }
+  },
+  {
+    "model": "main.gamemap",
+    "pk": 12,
+    "fields": {
+      "name": "King's Row",
+      "game_mode": "hybrid",
+      "portrait": "map_portraits/king_row.jpg"
+    }
+  },
+  {
+    "model": "main.gamemap",
+    "pk": 13,
+    "fields": {
+      "name": "Lijiang Tower",
+      "game_mode": "control",
+      "portrait": "map_portraits/lijiang_tower.jpg"
+    }
+  },
+  {
+    "model": "main.gamemap",
+    "pk": 14,
+    "fields": {
+      "name": "Nepal",
+      "game_mode": "control",
+      "portrait": "map_portraits/nepal.jpg"
+    }
+  },
+  {
+    "model": "main.gamemap",
+    "pk": 15,
+    "fields": {
+      "name": "Numbani",
+      "game_mode": "hybrid",
+      "portrait": "map_portraits/numbani.jpg"
+    }
+  },
+  {
+    "model": "main.gamemap",
+    "pk": 16,
+    "fields": {
+      "name": "Oasis",
+      "game_mode": "control",
+      "portrait": "map_portraits/oasis.jpg"
+    }
+  },
+  {
+    "model": "main.gamemap",
+    "pk": 17,
+    "fields": {
+      "name": "Paris",
+      "game_mode": "assault",
+      "portrait": "map_portraits/paris.jpg"
+    }
+  },
+  {
+    "model": "main.gamemap",
+    "pk": 18,
+    "fields": {
+      "name": "Rialto",
+      "game_mode": "escort",
+      "portrait": "map_portraits/rialto.jpg"
+    }
+  },
+  {
+    "model": "main.gamemap",
+    "pk": 19,
+    "fields": {
+      "name": "Route 66",
+      "game_mode": "escort",
+      "portrait": "map_portraits/route_66.jpg"
+    }
+  },
+  {
+    "model": "main.gamemap",
+    "pk": 20,
+    "fields": {
+      "name": "Temple of Anubis",
+      "game_mode": "assault",
+      "portrait": "map_portraits/temple_of_anubis.jpg"
+    }
+  },
+  {
+    "model": "main.gamemap",
+    "pk": 21,
+    "fields": {
+      "name": "Toronto",
+      "game_mode": "push",
+      "portrait": "map_portraits/toronto.jpg"
+    }
+  },
+  {
+    "model": "main.gamemap",
+    "pk": 22,
+    "fields": {
+      "name": "Volskaya Industries",
+      "game_mode": "assault",
+      "portrait": "map_portraits/volskaya.jpg"
+    }
+  }
+]
