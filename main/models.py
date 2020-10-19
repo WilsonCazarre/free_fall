@@ -13,8 +13,8 @@ competitive_modes = [
 ]
 
 game_modes = [
-    ('assault', 'Assault'),
-    ('control', 'Control (2 CP)'),
+    ('assault', 'Assault (2 CP)'),
+    ('control', 'Control'),
     ('escort', 'Escort'),
     ('hybrid', 'Hybrid'),
     ('push', 'Push')
@@ -32,17 +32,27 @@ class Profile(models.Model):
 
 class Hero(models.Model):
     name = models.CharField(max_length=50)
-    portrait = models.ImageField(null=True)
+    portrait = models.ImageField(null=True, upload_to='hero_portraits')
     role = models.TextField(choices=game_roles)
+
+    def __str__(self):
+        return self.name
 
     class Meta:
         verbose_name_plural = 'Heroes'
+        ordering = ('name',)
 
 
 class GameMap(models.Model):
     name = models.CharField(max_length=50)
     game_mode = models.CharField(choices=game_modes, max_length=15)
-    portrait = models.ImageField(null=True)
+    portrait = models.ImageField(null=True, upload_to='map_portraits')
+
+    def __str__(self):
+        return self.name
+
+    class Meta:
+        ordering = ('name',)
 
 
 class Match(models.Model):
