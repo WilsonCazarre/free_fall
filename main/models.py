@@ -22,7 +22,7 @@ game_modes = [
 
 
 class Profile(models.Model):
-    user_id = models.ForeignKey(User, on_delete=models.CASCADE)
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
     battle_tag = models.CharField
     damage_sr = models.IntegerField(null=True)
     tank_sr = models.IntegerField(null=True)
@@ -56,8 +56,8 @@ class GameMap(models.Model):
 
 
 class Match(models.Model):
-    profile_id = models.ForeignKey(Profile, on_delete=models.CASCADE)
-    map_id = models.ForeignKey(GameMap, on_delete=models.CASCADE)
+    profile = models.ForeignKey(Profile, on_delete=models.CASCADE)
+    map = models.ForeignKey(GameMap, on_delete=models.CASCADE)
     date = models.DateField(auto_now_add=True)
     competitive_mode = models.CharField(choices=competitive_modes, max_length=10)
     played_role = models.CharField(choices=game_roles, max_length=10)
@@ -68,5 +68,5 @@ class Match(models.Model):
 
 
 class PlayedHeroes(models.Model):
-    match_id = models.ForeignKey(Match, on_delete=models.CASCADE)
-    hero_id = models.ForeignKey(Hero, on_delete=models.CASCADE)
+    match = models.ForeignKey(Match, on_delete=models.CASCADE)
+    hero = models.ForeignKey(Hero, on_delete=models.CASCADE)
